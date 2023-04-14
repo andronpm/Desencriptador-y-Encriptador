@@ -47,3 +47,9 @@ function desencriptar(stringdesencriptaor){
 }
 
 
+function copiar() {
+	const texto = document.getElementById('texto');
+	texto.select();
+	document.execCommand('copy');
+  }
+
